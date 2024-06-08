@@ -1,0 +1,27 @@
+proxies:
+- name: trojan_WS_Hengky_iptunnels
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: 965530adefc9fb1a
+  network: ws
+  sni: jupiter.sing-box.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /buy-trojan-ws-pm-telegram-at-synricha
+    headers:
+      Host: jupiter.sing-box.id
+- name: Hengki
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: 6cc1dbb131bda000
+  network: ws
+  sni: runcloud-bgn.apasih.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /buy-trojan-ws-pm-telegram-at-synricha
+    headers:
+      Host: runcloud-bgn.apasih.id
