@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 965530adefc9fb1a
   network: ws
-  sni: jupiter.sing-box.id
+  sni: atp.sing-box.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /buy-trojan-ws-pm-telegram-at-synricha
     headers:
-      Host: jupiter.sing-box.id
+      Host: atp.sing-box.id
 - name: Hengki
   type: trojan
   server: 104.20.75.141
