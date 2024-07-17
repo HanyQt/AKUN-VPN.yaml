@@ -1,7 +1,7 @@
 proxies:
 - name: trojan_WS_Hengky_iptunnels
   type: trojan
-  server: 104.20.75.141
+  server: quiz.int.vidio.com
   port: 443
   password: 965530adefc9fb1a
   network: ws
@@ -14,7 +14,7 @@ proxies:
       Host: atp.sing-box.id
 - name: Hengki
   type: trojan
-  server: 104.20.75.141
+  server: quiz.int.vidio.com
   port: 443
   password: 6cc1dbb131bda000
   network: ws
